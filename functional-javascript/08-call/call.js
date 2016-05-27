@@ -1,0 +1,1 @@
+module.exports = (...ducks) => ducks.filter(duck => Object.prototype.hasOwnProperty.call(duck, 'quack')).length;
